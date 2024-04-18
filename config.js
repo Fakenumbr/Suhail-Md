@@ -18,7 +18,7 @@ global.blockJids= process.env.BLOCK_JID || "null"
 
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Delhi;
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  = process.env.GURL || "https://chat.whatsapp.com/BimhDs7A75W79XbOY4D0iW";
 global.website= process.env.GURL|| "https://chat.whatsapp.com/BimhDs7A75W79XbOY4D0iW" ; 
@@ -77,7 +77,7 @@ module.exports = {
   caption : process.env.CAPTION || "𝛥𝑅𝑆𝛨𝛪𝑇𝛨" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "𝛥𝑅𝑆𝛨𝛪𝑇𝛨",
-  packname: process.env.PACK_NAME || "♥️",
+  packname: process.env.PACK_NAME || "🗣️",
   botname : process.env.BOT_NAME  || "𝛥𝑅𝑆𝛨𝛪𝑇𝛨",
   ownername:process.env.OWNER_NAME|| "𝛥𝑅𝑆𝛨𝛪𝑇𝛨",
 
